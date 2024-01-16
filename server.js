@@ -27,6 +27,9 @@ db.once('open', () => {
 // router
 const userRoute =require('./src/routes/UserAuth')
 app.use('/user',userRoute);
+// task route
+const userRoute1 =require('./src/routes/Homeuser')
+app.use('/user1',userRoute1);
 //////////validation token route
 app.get('/valid', vrifiy)
 

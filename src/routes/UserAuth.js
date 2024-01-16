@@ -7,5 +7,6 @@ router.post('/',controller.psot_login)
 router.post('/reg',controller.psot_register)
 
 
+
 module.exports = router
 

@@ -14,12 +14,12 @@ const TaskSchema = new mongoose.Schema({
             required : true,
         },
     date_creation :{
-            type : Date,
-            required : true,
+            type : String,
+            //required : true,
         },
     date_completion :{
             type : Date,
-            required : true,
+           // required : true,
         },
     user_association :{
             type : String,
