@@ -1,2 +1,2 @@
 { "version": 2,"builds": [{ "source": "/server.js", "use": "@vercel/node" }]
-,"routes": [{ "source": "/(.*)", "dest": "/srever.js" }] }
+,"routes": [{ "source": "/src/(.*)", "dest": "/srever.js" }] }
