@@ -30,6 +30,10 @@ app.use('/user',userRoute);
 // task route
 const userRoute1 =require('./src/routes/Homeuser')
 app.use('/user1',userRoute1);
+//dashbord user route
+const userRoute2 =require('./src/routes/dashbord')
+app.use('/user_d',userRoute2);
+
 //////////validation token route
 app.get('/valid', vrifiy)
 

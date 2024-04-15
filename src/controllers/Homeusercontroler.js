@@ -5,7 +5,8 @@ const moment = require('moment');
 
 ////////////////adition Task post api   
 module.exports.psot_addTask =async(req,res)=>{
-    const {nametask,discription ,status,user_association} = req.body
+    const {nametask,discription ,user_association} = req.body
+    const status = 'incompleted'
     const currentDate = moment().format();
     date_creation=currentDate.split('T')[0]
     try {
