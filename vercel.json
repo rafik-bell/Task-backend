@@ -1,2 +1,2 @@
-{ "version": 2, "builds": [{ "source": "/server.js", "use": "@vercel/node" }]
+{ "version": 2,"buildCommand": "next build", "builds": [{ "source": "/server.js", "use": "@vercel/node" }]
 ,"routes": [{ "source": "/(.*)", "dest": "/srever.js" }] }
